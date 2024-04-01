@@ -28,12 +28,12 @@ body {
   max-width: 1920px;
   margin: auto;
   width: 100%;
-  padding: 0 100px 0 100px;
+  padding: 0 50px 0 50px;
 }
 
 .header {
   max-width: 2500px;
-  background-image: url(img/bg3.jpg);
+  background-image: url(img/bgstill.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -199,4 +199,21 @@ body {
   /* background-color: rgb(64 73 80); */
   margin-top: 50px;
   margin-bottom: 50px;
+}
+@media (min-width:2000px) {
+  .fix {
+    padding-top: 70%;
+  }
+}
+
+@media (max-width:1800px) {
+  .fix {
+    padding-top: 50%;
+  }
+}
+
+@media (max-width:1200px) {
+  .fix {
+    padding-top: 45%;
+  }
 }

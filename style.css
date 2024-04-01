@@ -193,6 +193,11 @@ body {
   margin-bottom: 50px;
 }
 .moto_grid {
+  display: flex;
+  padding: 40px;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
   
   /* display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -270,6 +275,8 @@ body {
 } */
 
 .moto_img {
+  width: 462px;
+  height: 319px;
   position: relative;
   top: -170px;
   left: 200px;
@@ -308,6 +315,9 @@ body {
   .fix {
     padding-top: 45%;
   }
+  .glass {
+    width: 800px;
+  }
 }
 @media (max-width:1100px) {
   .header_logo {
@@ -327,7 +337,11 @@ body {
     gap: 70px;
   }
 }
-
+@media (max-width:1000px) { 
+  .glass {
+    width: 700px;
+  }
+}
 @media (max-width:950px) {
   .header_logo {
     width: 180px; 
@@ -344,5 +358,113 @@ body {
   }
   .header_number {
     gap: 50px;
+  }
+}
+
+@media (max-width:880px) { 
+  .glass {
+    width: 600px;
+  }
+  .moto_img {
+    width: 420px;
+    height: 290px;
+    left: 80px;
+  }
+  .moto_img:hover {
+    /* top: -200px; */
+    left: 150px;
+  }
+}
+
+@media (max-width:800px) { 
+  .glass {
+    width: 500px;
+  }
+  .moto_img {
+    width: 381px;
+    height: 263px;
+    left: 70px;
+  }
+  .moto_img:hover {
+    /* top: -200px; */
+    left: 140px;
+  }
+  .header_logo {
+    width: 150px; 
+    height: 80px; 
+  }
+  .phone, .address {
+    font-size: 18px;
+  }
+  .phone_text {
+    font-size: 14px;
+  }
+  .nav-menu_link {
+    font-size: 20px;
+  }
+  .header_number {
+    gap: 50px;
+  }
+}
+
+@media (max-width:685px) { 
+  .glass {
+    width: 450px;
+  }
+  .moto_img {
+    /* width: 381px;
+    height: 263px; */
+    left: 30px;
+  }
+  .moto_img:hover {
+    /* top: -200px; */
+    left: 80px;
+  }
+  .header_logo {
+    width: 130px; 
+    height: 70px; 
+  }
+  .phone, .address {
+    font-size: 16px;
+  }
+  .phone_text {
+    font-size: 12px;
+  }
+  .nav-menu_link {
+    font-size: 18px;
+  }
+  .header_number {
+    gap: 30px;
+  }
+}
+
+@media (max-width:600px) { 
+  .glass {
+    width: 400px;
+  }
+  .moto_img {
+    /* width: 381px;
+    height: 263px; */
+    left: 10px;
+  }
+  .moto_img:hover {
+    /* top: -200px; */
+    left: 50px;
+  }
+  .header_logo {
+    width: 100px; 
+    /* height: 70px;  */
+  }
+  .phone, .address {
+    font-size: 14px;
+  }
+  .phone_text {
+    font-size: 10px;
+  }
+  .nav-menu_link {
+    font-size: 16px;
+  }
+  .header_number {
+    gap: 20px;
   }
 }

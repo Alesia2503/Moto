@@ -154,8 +154,8 @@ body {
 	justify-content: center;
 	flex-direction: column;
   row-gap: 20%;
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .moto_text {

@@ -31,7 +31,7 @@ body {
 }
 
 .header {
-  background: rgb(12 19 29);
+  background: black;
   padding: 1.8vw 0 1.8vw 0;
 }
 
@@ -101,19 +101,9 @@ body {
   cursor: pointer;
 }
 
-.content {
-  width: 100%;
-  aspect-ratio: 16/11;
-  background-image: url(img/bgstill.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  /* background-attachment: fixed; */
-}
-
 .nav {
   padding: 20px 0 20px 0;
-  background: rgb(12 19 29);
+  background: black;
   border-top: 1px solid rgb(230 223 205);
 }
 .nav_wrap {
@@ -162,8 +152,25 @@ body {
   display: none;
 }
 
+.content {
+  width: 100%;
+  aspect-ratio: 16/11;
+  background-image: url(img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* background-attachment: fixed; */
+}
+
+.content_text {
+margin: 0 auto;
+width: 90vw;
+padding: 8% 0 0 45%;
+filter: saturate(200%);
+}
+
 .moto {
-  background-image: url(img/Screenshot_1.png);
+  background-image: url(img/bg_moto.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -233,7 +240,7 @@ body {
 }
 
 .footer {
-  background: rgb(12 19 29);
+  background: black;
 }
 .footer_logo {
   padding: 2vw 0 0 0;

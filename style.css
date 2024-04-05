@@ -257,6 +257,7 @@ filter: saturate(200%);
   filter: saturate(200%);
   border-radius: 20px;
   padding: 10px;
+
   margin: 0 auto;
   text-align: center;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
@@ -370,6 +371,16 @@ filter: saturate(200%);
   body.noscroll {
     overflow: hidden;
   }
+  .card_price {
+    width: 40%;
+    border-radius: 12px;
+    
+  }
+  
+.glass {
+  width: 100%;
+  aspect-ratio: 14/7;
+}
 }
 @media (max-width:710px) {
   .message_flex {

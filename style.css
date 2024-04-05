@@ -134,6 +134,10 @@ body {
   /* filter: drop-shadow(0 0 10px white); */
 }
 
+.nav-menu_link.none {
+  display: none;
+}
+
 .nav-indicator {
   position: absolute;
   left: 0;
@@ -280,7 +284,10 @@ filter: saturate(200%);
 .footer {
   background: black;
 }
-.footer_logo {
+
+.footer_flex {
+  display: flex;
+  justify-content: space-between;
   padding: 2vw 0 0 0;
 }
 
@@ -314,6 +321,9 @@ filter: saturate(200%);
   }
   .nav {
     display: none;
+  }
+  .nav-menu_link.none {
+    display: block;
   }
   .hamb {
     display: flex;

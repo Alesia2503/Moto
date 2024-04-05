@@ -237,6 +237,11 @@ filter: saturate(200%);
   transition-duration: 1s;
 }
 
+.moto_img.shlem {
+  width: 30%;
+  left: 35%;
+}
+
 .moto_p {
   padding: 0px 50px 25px 50px;
   margin-top: -12%;
@@ -252,7 +257,7 @@ filter: saturate(200%);
 }
 
 .card_price {
-  width: 25%;
+  width: 30%;
   background: rgb(226 110 38);
   filter: saturate(200%);
   border-radius: 20px;
@@ -266,6 +271,10 @@ filter: saturate(200%);
 .price_p {
   font-size: 2vw;
   font-weight: bold;
+}
+
+.price_p-only {
+  font-size: 1.5vw;
 }
 
 .footer {

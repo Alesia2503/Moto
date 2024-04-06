@@ -55,7 +55,7 @@ body {
 
 .header_number {
   display: flex;
-  gap: 100px;
+  gap: 70px;
 }
 
 .phone_text {
@@ -76,6 +76,11 @@ body {
   font-size: 2vw;
   font-weight: bold;
   color: white;
+}
+
+.address.address-normal {
+  font-size: 1.5vw;
+  font-weight: normal;
 }
 
 .header_phone-img {
@@ -127,7 +132,7 @@ body {
 
 .nav-menu_link {
   text-decoration: none;
-  color: rgb(227 221 205);
+  color: white;
   font-size: 2.3vw;
   font-weight: bold;
   filter: saturate(200%);
@@ -288,7 +293,19 @@ filter: saturate(200%);
 .footer_flex {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 2vw 0 0 0;
+}
+
+.footer_address-text {
+  font-size: 1.5vw;
+}
+
+.footer_phone-flex {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
 }
 
 .hr {
@@ -304,6 +321,20 @@ filter: saturate(200%);
   font-size: 1.3vw;
 }
 
+/*Условия аренды*/
+.rent_content {
+  /* background-image: url(img/bg_moto.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; */
+  background-color: rgb(227 221 205);
+  padding: 30px 0 30px 0;
+}
+ul {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
 @media (max-width:950px) {
 
 }
@@ -316,6 +347,9 @@ filter: saturate(200%);
 
 
 @media (max-width:768px) {
+  .container {
+    padding: 0 20px 0 20px;
+  }
   .header_number {
     display: none;
   }

@@ -107,7 +107,7 @@ body {
 }
 
 .nav {
-  padding: 20px 0 20px 0;
+  padding: 20px 50px 20px 50px;
   background: black;
   border-top: 1px solid rgb(230 223 205);
 }
@@ -242,8 +242,8 @@ filter: saturate(200%);
 	justify-content: center;
 	flex-direction: column;
   row-gap: 20%;
-  /* padding-top: 10%; */
-  padding-bottom: 10%;
+  padding: 0 20px 10% 20px;
+  /* padding-bottom: 10%; */
 }
 
 .glass {
@@ -311,7 +311,6 @@ filter: saturate(200%);
   filter: saturate(200%);
   border-radius: 20px;
   padding: 10px;
-
   margin: 0 auto;
   text-align: center;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
@@ -320,6 +319,7 @@ filter: saturate(200%);
 .price_p {
   font-size: 2vw;
   font-weight: bold;
+  
   /* text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.3);
   background-color: #b9b9b9;
   color: transparent;
@@ -417,6 +417,9 @@ filter: saturate(200%);
   0px
   linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 }
+.cards-text {
+  padding: 0 50px 0 50px;
+}
 .card_text-title {
   font-size: 2.5vw;
 }
@@ -425,6 +428,75 @@ filter: saturate(200%);
   font-size: 1.5vw;
   margin-bottom: 1%;
 }
+
+
+
+/*О нас*/
+.content_about {
+  background-color: rgb(227 221 205);
+  padding: 30px 0 30px 0;
+}
+.scroller {
+  max-width: 100%;
+}
+
+.scroller__inner {
+  padding-block: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.scroll_img {
+  width: 50%;
+  max-width: 300px;
+  aspect-ratio: 16/10;
+}
+.scroller[data-animated="true"] {
+  overflow: hidden;
+  -webkit-mask: linear-gradient(
+    90deg,
+    transparent,
+    white 20%,
+    white 80%,
+    transparent
+  );
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+
+.scroller[data-animated="true"] .scroller__inner {
+  width: max-content;
+  flex-wrap: nowrap;
+  animation: scroll var(--_animation-duration, 40s)
+    var(--_animation-direction, forwards) linear infinite;
+}
+
+.scroller[data-direction="right"] {
+  --_animation-direction: reverse;
+}
+
+.scroller[data-direction="left"] {
+  --_animation-direction: forwards;
+}
+
+.scroller[data-speed="fast"] {
+  --_animation-duration: 20s;
+}
+
+.scroller[data-speed="slow"] {
+  --_animation-duration: 60s;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - 0.5rem));
+  }
+}
+
+
+
+
+
 
 @media (max-width:950px) {
 
@@ -524,6 +596,9 @@ filter: saturate(200%);
 .glass {
   width: 100%;
   aspect-ratio: 14/6.5;
+}
+.cards-text {
+  padding: 0 20px 0 20px;
 }
 }
 @media (max-width:710px) {

@@ -199,7 +199,7 @@ body {
 .glass {
   width: 85%;
   max-width: 2000px;
-  aspect-ratio: 16/7;
+  aspect-ratio: 14/5;
   background: rgb(227 221 205);
   border-radius: 35px;
   margin: 15% auto 5%;
@@ -255,6 +255,7 @@ body {
   margin: 0 auto;
   text-align: center;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+ margin-bottom: 5%;
 }
 
 .price_p {
@@ -316,6 +317,9 @@ body {
 .rent_h1 {
   font-size: 2vw;
 }
+.last_h1 {
+  margin-top: 16px;
+}
 /*Мотоциклы*/
 .content_moto {
   background-image: url(img/bg_moto.png);
@@ -335,7 +339,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 5%;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
   /* justify-content: space-around */
 }
 
@@ -351,9 +355,9 @@ body {
   linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 }
 
-.cards-text {
-  padding: 0 50px 0 50px;
-}
+/* .cards-text {
+  padding: 0 20px 0 20px;
+} */
 
 .card_text-title {
   font-size: 2.5vw;
@@ -465,7 +469,7 @@ li.even {
 .about_h1 {
   font-size: 2vw;
   text-align: center;
-  color: rgb(226 110 38);
+  /* color: rgb(226 110 38); */
   padding-bottom: 1.5%;
   padding-top: 3%;
 
@@ -579,10 +583,34 @@ li.even {
   }
   .glass {
     width: 100%;
-    aspect-ratio: 14/6.5;
+    aspect-ratio: 14/3;
   }
-  .cards-text {
+  /* .cards-text {
     padding: 0 20px 0 20px;
+  } */
+  .rent_content li, .rent_content p {
+    font-size: 2.5vw;
+  }
+  .rent_h1 {
+    font-size: 4vw;
+  }
+  .card_text-title {
+    font-size: 3vw;
+  }
+  .card_text-p {
+    font-size: 2.5vw;
+  }
+  .about_h1 {
+    font-size: 4vw;
+  }
+  .about_p {
+    font-size: 2.5vw;
+  }
+  .moto_p {
+    font-size: 2.5vw;
+  }
+  .orange_color {
+    font-size: 3vw;
   }
 }
 

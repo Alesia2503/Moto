@@ -80,11 +80,11 @@ body {
 }
 
 .header_phone-img {
-  width: 2vw;
-  height: 2vw;
+  width: 2.5vw;
+  height: 2.5vw;
   display: inline;
   vertical-align: middle;
-  margin: -10px 10px 0 0;
+  margin: -8px 10px 0 0;
 }
 
 .message_flex {
@@ -93,8 +93,8 @@ body {
 }
 
 .message {
-  width: 2vw;
-  height: 2vw;
+  width: 2.5vw;
+  height: 2.5vw;
   cursor: pointer;
 }
 
@@ -164,6 +164,16 @@ body {
   filter: saturate(150%);
 }
 
+.freepik {
+  position: relative;
+  top: 70%;
+  left: 3%;
+  color: rgb(84, 81, 81);
+  font-size: 1vw;
+}
+.freepik a {
+  color: rgb(84, 81, 81);
+}
 .content_text {
   margin: 0 auto;
   width: 90vw;
@@ -232,6 +242,11 @@ body {
   width: 30%;
   left: 35%;
 }
+.moto_img.shlem1 {
+  width: 40%;
+  left: 35%;
+}
+
 
 .moto_p {
   padding: 0px 50px 25px 50px;
@@ -364,11 +379,12 @@ body {
 }
 
 .card_text-p {
-  /* text-indent: 2vw; */
+  
   font-size: 1.5vw;
   margin-bottom: 1%;
   text-align: justify;
 }
+
 
 /*О нас*/
 .content_about {
@@ -490,8 +506,10 @@ li.even {
   width: 100%;
 }
 
-@media (max-width:950px) {
-
+@media (max-width:1100px) {
+  .freepik {
+    top: 68%;
+  }
 }
 
 @media (max-width:850px) {
@@ -612,6 +630,14 @@ li.even {
   .orange_color {
     font-size: 3vw;
   }
+  .header_phone-img {
+    width: 3vw;
+    height: 3vw;
+  }
+  .message {
+    width: 4vw;
+    height: 4vw;
+  }
 }
 
 @media (max-width:710px) {
@@ -620,6 +646,10 @@ li.even {
   }
   .moto_p {
     padding: 0 20px 20px 20px;
+  }
+  .freepik {
+    /* top: 67%; */
+    font-size: 1.5vw;
   }
 }
 

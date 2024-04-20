@@ -508,6 +508,7 @@ li.even {
 }
 .about_img {
   width: 100%;
+  filter: saturate(150%);
 }
 
 @media (max-width:1100px) {

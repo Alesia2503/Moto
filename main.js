@@ -121,3 +121,47 @@ function addAnimation() {
     });
   });
 }
+
+
+
+
+let video1 = document.querySelector('.video1')
+let video2 = document.querySelector('.video2')
+let video3 = document.querySelector('.video3')
+let btn1 = document.querySelector('.bar11')
+let btn2 = document.querySelector('.bar22')
+let btn3 = document.querySelector('.bar33')
+btn1.addEventListener('click', ()=> {
+  if (video1.play) {
+    video1.pause();
+  } 
+  if (video2.play) {
+    video2.pause();
+  };
+  if (video3.play) {
+    video3.pause();
+  };
+});
+btn2.addEventListener('click', ()=> {
+  if (video1.play) {
+    video1.pause();
+  };
+  if (video2.play) {
+    video2.pause();
+  };
+  if (video3.play) {
+    video3.pause();
+  };
+  
+});
+btn3.addEventListener('click', ()=> {
+  if (video1.play) {
+    video1.pause();
+  } 
+  if (video2.play) {
+    video2.pause();
+  };
+  if (video3.play) {
+    video3.pause();
+  };
+});

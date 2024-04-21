@@ -509,6 +509,15 @@ li.even {
   font-size: 1.5vw;
   text-align: justify;
 }
+.about_video {
+  margin: 2vw 0 0 20%;
+}
+.video {
+  width: 80%;
+  height: auto;
+  border-radius: 20px;
+
+}
 .about_grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -667,6 +676,12 @@ li.even {
   }
   .footer_phone-flex {
     width: 40vw;
+  }
+  .about_video {
+    margin: 2vw 0 0 0;
+  }
+  .video {
+    width: 100%;
   }
 }
 

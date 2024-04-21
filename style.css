@@ -24,7 +24,8 @@ body {
 }
 
 .container {
-  max-width: 1920px;
+  width: 1920px;
+  /* max-width: 1920px; */
   margin: auto;
   width: 100%;
   padding: 0 50px 0 50px;
@@ -170,7 +171,7 @@ body {
 }
 
 .freepik {
-  max-width: 200px;
+  max-width: 250px;
   position: relative;
   top: 70%;
   left: 3%;
@@ -307,9 +308,9 @@ body {
 
 .footer_phone-flex {
   display: flex;
+  justify-content: space-between;
+  width: 35vw;
   align-items: center;
-  gap: 30px;
-
 }
 
 .hr {
@@ -527,6 +528,7 @@ li.even {
   .freepik {
     top: 68%;
   }
+
 }
 
 @media (max-width:850px) {
@@ -658,6 +660,9 @@ li.even {
   .scroll_img {
     width: 40%;
     max-width: 200px;
+  }
+  .footer_phone-flex {
+    width: 40vw;
   }
 }
 

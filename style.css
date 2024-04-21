@@ -499,25 +499,86 @@ li.even {
 .about_h1 {
   font-size: 2vw;
   text-align: center;
-  /* color: rgb(226 110 38); */
   padding-bottom: 1.5%;
   padding-top: 3%;
-
 }
+
 .about_p {
   text-indent: 2vw;
   font-size: 1.5vw;
   text-align: justify;
 }
-.about_video {
-  margin: 2vw 0 0 20%;
-}
-.video {
-  width: 80%;
-  height: auto;
-  border-radius: 20px;
 
+.slider {
+  width: 70%;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
 }
+
+.middle {
+  margin: 2vw 0 0 15%;
+}
+
+.navigation {
+  justify-content: center;
+  padding-top: 1vw;
+  display: flex;
+}
+
+.bar1 {
+  width: 50px;
+  height: 8px;
+  margin: 20px;
+  cursor: pointer;
+  background-color: #000;
+  opacity: .5;
+  border-radius: 10px;
+  transition: all 0.4s ease;
+}
+
+.bar1:hover {
+  opacity: 1;
+  transform:scale(1.1);
+}
+
+input[name="r"] {
+  position: absolute;
+  visibility: hidden;
+}
+
+.slides {
+  width: 400%;
+  height: 100%;
+  display: flex;
+}
+
+.slide {
+  width: 25%;
+  transition: all 0.6s ease;
+}
+
+#r1:checked ~ .s1 {
+  margin-left: 0;
+}
+
+#r2:checked ~ .s1 {
+  margin-left: -25%;
+}
+
+#r3:checked ~ .s1 {
+  margin-left: -50%;
+}
+
+#r4:checked ~ .s1 {
+  margin-left: -75%;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+}
+
 .about_grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -677,11 +738,14 @@ li.even {
   .footer_phone-flex {
     width: 40vw;
   }
-  .about_video {
+  .middle {
     margin: 2vw 0 0 0;
   }
-  .video {
+  .slider {
     width: 100%;
+  }
+  .bar1 {
+    margin: 15px;
   }
 }
 

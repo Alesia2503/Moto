@@ -189,10 +189,12 @@ body {
 }
 
 .moto {
-  background-image: url(img/bg_moto.png);
+  /* background-image: url(img/bg_moto.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center center; */
+  background: #9b8678;
+  background: linear-gradient(179deg, #9b8678 24%, #6480a7 100%)
 }
 
 .moto_text, .content_moto-h1 {
@@ -279,7 +281,7 @@ body {
   margin: 0 auto;
   text-align: center;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
- margin-bottom: 5%;
+  margin-bottom: 5%;
 }
 
 .price_p {
@@ -328,10 +330,12 @@ body {
 
 /*Условия аренды*/
 .rent_content {
-  background-image: url(img/bg_rent.png);
+  /* background-image: url(img/bg_rent.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center center; */
+  background: #9b8678;
+  background: linear-gradient(179deg, #9b8678 24%, #6480a7 100%);
   padding: 30px 0 30px 0;
 }
 .rent_content li, .rent_content p {
@@ -346,10 +350,12 @@ body {
 }
 /*Мотоциклы*/
 .content_moto {
-  background-image: url(img/bg_moto.png);
+  /* background-image: url(img/bg_moto.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center center; */
+  background: #9b8678;
+  background: linear-gradient(179deg, #9b8678 24%, #6480a7 100%);
 }
 
 .content_moto-h1 {
@@ -379,10 +385,6 @@ body {
   linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 }
 
-/* .cards-text {
-  padding: 0 20px 0 20px;
-} */
-
 .card_text-title {
   font-size: 2.5vw;
 }
@@ -397,11 +399,13 @@ body {
 
 /*О нас*/
 .content_about {
-  background-image: url(img/bg_moto.png);
+  /* background-image: url(img/bg_moto.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
-  /* background-color: rgb(227 221 205); */
+  background-position: center center; */
+  /* background-color: rgb(155 134 120); */
+  background: #9b8678;
+  background: linear-gradient(179deg, #9b8678 24%, #6480a7 100%);
   /* padding: 0 0 30px 0; */
   
 }

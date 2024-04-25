@@ -340,6 +340,10 @@ body {
 .first_child {
   padding: 2vw 0 0 0;
 }
+.footer_message {
+  width: 3.5vw;
+  height: 3.5vw;
+}
 
 .footer_copyrights{
   padding: 1vw;
@@ -803,8 +807,3 @@ input[name="r"] {
   .popup {
     top: 55px;}
 }
-/* @media (max-width:500px) { 
-  .footer_address {
-    width: 25vw;
-  }
-} */

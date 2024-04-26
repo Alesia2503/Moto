@@ -25,7 +25,6 @@ body {
 
 .container {
   width: 1920px;
-  /* max-width: 1920px; */
   margin: auto;
   width: 100%;
   padding: 0 50px 0 50px;
@@ -61,10 +60,12 @@ body {
   font-weight: bold;
   color: white;
 }
+
 .phone_flex {
   display: flex;
   flex-direction: column;
 }
+
 .phone {
   display: inline;
   position: relative;
@@ -90,9 +91,11 @@ body {
   vertical-align: middle;
   margin: -8px 10px 0 0;
 }
+
 .header_address {
   margin: auto auto;
 }
+
 .message_flex {
   display: flex;
   justify-content: space-between;
@@ -110,24 +113,14 @@ body {
   background: black;
   border-top: 1px solid rgb(230 223 205);
 }
+
 .nav_wrap {
-  
   padding: 10px 0 10px 0;
   display: flex;
   justify-content: space-between;
   position: relative;
   overflow: hidden;
   min-width: 100%;
-  /* background-color: rgb(230 223 205); */
-  /* padding: 20px 50px; */
-
-  /* background: linear-gradient(135deg, rgba(255,255,255, 0.1), rgba(255, 255, 255, 0));
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  border-radius: 32px; */
-  
 }
 
 .nav-menu_link {
@@ -179,9 +172,11 @@ body {
   color: rgb(84, 81, 81);
   font-size: 1vw;
 }
+
 .freepik a {
   color: rgb(84, 81, 81);
 }
+
 .content_text {
   margin: 0 auto;
   width: 90vw;
@@ -190,10 +185,6 @@ body {
 }
 
 .moto {
-  /* background-image: url(img/bg_moto.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; */
   background: #9b8678;
   background: linear-gradient(179deg, #9b8678 24%, #6480a7 100%)
 }
@@ -252,13 +243,11 @@ body {
   width: 30%;
   left: 35%;
 }
+
 .moto_img.shlem1 {
   width: 40%;
   left: 35%;
 }
-/* .moto_img.shlem1:hover {
-  im
-} */
 
 .moto_p {
   padding: 0px 50px 25px 50px;
@@ -313,33 +302,40 @@ body {
 .footer_phone-flex {
   display: flex;
   justify-content: space-between;
-  /* width: 35vw; */
   align-items: center;
 }
+
 .message_footer {
   width: 30vw;
   justify-content: space-between;
   align-items: center;
 }
+
 .address_footer {
   font-size: 2.5vw;
 }
+
 .phone_footer {
   font-size: 2vw;
 }
+
 .links-footer {
   font-size: 2.5vw;
 }
+
 .footer_bron {
   justify-content: center;
 }
+
 .hr {
   border-bottom: 1px solid rgb(227 221 205);
   padding: 2vw 0 2vw 0;
 }
+
 .first_child {
   padding: 2vw 0 0 0;
 }
+
 .footer_message {
   width: 3.5vw;
   height: 3.5vw;
@@ -348,6 +344,7 @@ body {
 .footer_copyrights{
   padding: 1vw;
 }
+
 .footer_text-p {
   color: white;
   font-size: 1.3vw;
@@ -355,30 +352,30 @@ body {
 
 /*Условия аренды*/
 .rent_content {
-  /* background-image: url(img/bg_rent.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; */
   background: #9b8678;
   background: linear-gradient(179deg, #9b8678 24%, #6480a7 100%);
   padding: 30px 0 30px 0;
 }
+
 .rent_content li, .rent_content p {
   text-align: justify;
   font-size: 1.5vw;
 }
+
 .rent_h1 {
   font-size: 2vw;
 }
+
 .last_h1 {
   margin-top: 16px;
 }
+
+ul li {
+  list-style: '✔ ';
+}
+
 /*Мотоциклы*/
 .content_moto {
-  /* background-image: url(img/bg_moto.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; */
   background: #9b8678;
   background: linear-gradient(179deg, #9b8678 24%, #6480a7 100%);
 }
@@ -390,12 +387,12 @@ body {
   padding-bottom: 3%;
   padding-top: 3%;
 }
+
 .cards_wrap {
   display: flex;
   flex-direction: column;
   gap: 5%;
   padding-bottom: 5%;
-  /* justify-content: space-around */
 }
 
 .moto_img1 {
@@ -415,7 +412,6 @@ body {
 }
 
 .card_text-p {
-  
   font-size: 1.5vw;
   margin-bottom: 1%;
   text-align: justify;
@@ -424,15 +420,8 @@ body {
 
 /*О нас*/
 .content_about {
-  /* background-image: url(img/bg_moto.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; */
-  /* background-color: rgb(155 134 120); */
   background: #9b8678;
   background: linear-gradient(179deg, #9b8678 24%, #6480a7 100%);
-  /* padding: 0 0 30px 0; */
-  
 }
 
 .scroller {
@@ -521,6 +510,7 @@ body {
 li.even {
   background: white;
 }
+
 .about_h1 {
   font-size: 2vw;
   text-align: center;
@@ -611,14 +601,17 @@ input[name="r"] {
   gap: 2vw;
   padding: 5% 0 5% 0;
 }
+
 .about_img {
   width: 100%;
   filter: saturate(150%);
 }
+
 .button_more {
   background-color: transparent;
   border: none;
 }
+
 .more {
   filter: grayscale(200%);
 }
@@ -723,9 +716,6 @@ input[name="r"] {
     width: 100%;
     aspect-ratio: 14/3;
   }
-  /* .cards-text {
-    padding: 0 20px 0 20px;
-  } */
   .rent_content li, .rent_content p {
     font-size: 2.5vw;
   }
@@ -758,16 +748,10 @@ input[name="r"] {
     width: 5vw;
     height: 5vw;
   }
-  /* .footer_address {
-    width: 70px;
-  } */
   .scroll_img {
     width: 40%;
     max-width: 200px;
   }
-  /* .footer_phone-flex {
-    width: 45vw;
-  } */
   .middle {
     margin: 2vw 0 0 0;
   }
@@ -787,7 +771,6 @@ input[name="r"] {
     padding: 0 20px 20px 20px;
   }
   .freepik {
-    /* top: 67%; */
     font-size: 1.5vw;
   }
 }
@@ -797,9 +780,7 @@ input[name="r"] {
     padding: 20px 20px 20px 20px;
   }
   .about_grid {
-
     grid-template-columns: repeat(1, 1fr);
-
   }
 }
 

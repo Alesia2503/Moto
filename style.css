@@ -370,7 +370,7 @@ body {
   margin-top: 16px;
 }
 
-ul li {
+ul .li {
   list-style: '✔ ';
 }
 

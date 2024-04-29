@@ -356,6 +356,10 @@ body {
   font-size: 1.3vw;
 }
 
+.ofer {
+  display: flex;
+  justify-content: space-between;
+}
 /*Условия аренды*/
 .rent_content {
   background: #9b8678;

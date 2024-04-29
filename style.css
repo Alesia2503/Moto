@@ -167,7 +167,7 @@ body {
 .freepik {
   max-width: 250px;
   position: relative;
-  top: 70%;
+  top: 62%;
   left: 3%;
   color: rgb(84, 81, 81);
   font-size: 1vw;
@@ -185,7 +185,7 @@ body {
 }
 
 .content_text-p {
-  font-size: 3.5git pushvw;
+  font-size: 3.5vw;
   color: white;
   text-align: center;
 }
@@ -624,7 +624,7 @@ input[name="r"] {
 
 @media (max-width:1100px) {
   .freepik {
-    top: 68%;
+    top: 60%;
   }
   .footer_message {
     font-size: 5vw;

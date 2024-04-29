@@ -184,6 +184,12 @@ body {
   filter: saturate(200%);
 }
 
+.content_text-p {
+  font-size: 3.5vw;
+  color: white;
+  text-align: center;
+}
+
 .moto {
   background: #9b8678;
   background: linear-gradient(179deg, #9b8678 24%, #6480a7 100%)

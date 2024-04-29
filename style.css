@@ -185,7 +185,9 @@ body {
 }
 
 .content_text-p {
-  font-size: 5vw;
+  font-size: 3.5vw;
+  font-weight: bold;
+  white-space: nowrap;
   color: white;
   text-align: center;
 }
@@ -360,6 +362,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 /*Условия аренды*/
 .rent_content {
   background: #9b8678;
